@@ -1,0 +1,33 @@
+<html>
+<head></head>
+
+<body>
+  <form>
+    <fieldset>
+      <label for="guessing">Enter your Number</label>
+      <input type="number" name="guess" id="guessing">
+      <button type="submit" onclick="getTheNumber(mysteryNumber)">Submit</button>
+    </fieldset>
+
+  </form>
+
+</body>
+
+<script>
+  var mysteryNumber = Math.floor((Math.random()*99) + 1);
+  console.log(mysteryNumber)
+  function getTheNumber (newNum){
+    var guessing = document.getElementById("guessing").value;
+    if(guessing > newNum) {
+      alert("your number is too high");
+    }else if (guessing < newNum ) {
+      alert("your number is too low");
+    }else {
+      alert("Congrats! You have the right number");
+    }
+  }
+
+</script>
+
+
+</html>

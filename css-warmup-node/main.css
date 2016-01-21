@@ -1,0 +1,41 @@
+body {
+  background-color: grey;
+}
+
+ header {
+   color: white;
+  text-align: center;
+  font-family: Arial;
+  padding: 10px;
+}
+
+.main {
+  background-color: white;
+  width: 100%;
+  height: 400px;
+  margin: 0;
+}
+
+.info {
+  color: black;
+  text-align: center;
+  font-family: arial;
+  padding-top: 50px;
+  padding-right: 300px;
+  padding-left: 300px;
+  font-size: 20px;
+}
+
+article h2 {
+  font-family: arial;
+  text-align: center;
+}
+
+article aside {
+  background-color: green;
+  text-align: center;
+  height: 100px;
+  width: 200px;
+  box-sizing: border-box;
+  margin-left: 350px;
+}
